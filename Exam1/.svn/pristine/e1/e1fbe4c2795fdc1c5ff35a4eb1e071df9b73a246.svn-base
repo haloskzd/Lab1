@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+/**
+ * A program that lets the user burn fuel until they quit, 
+ * but enforcing the limit on the the number of fuel units they can burn.
+ *
+ * @author <<<Your name>>>.
+ */
+public class FuelThrusterMain {
+
+	/**
+	 * Tests the FuelThruster class.
+	 *
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		//TODO: Implement as specified on paper.
+		
+		scanner.close();
+		
+	}
+}

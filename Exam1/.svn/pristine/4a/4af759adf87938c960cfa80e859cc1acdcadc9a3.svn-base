@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+
+/**
+ * Tracks how many fuel units the user has burned.
+ *
+ * @author <<<Your name>>>.
+ */
+public class FuelThruster {
+
+	//TODO: Implement and write javadoc comments for this class
+	//according to the written spec so that it passes the tests
+	//in FuelThrusterTest.java
+}

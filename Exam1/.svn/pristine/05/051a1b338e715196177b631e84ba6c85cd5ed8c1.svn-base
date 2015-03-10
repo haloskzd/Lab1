@@ -1,0 +1,52 @@
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.util.ArrayList;
+
+import javax.swing.JComponent;
+
+/**
+ * Draws some clocks.
+ * 
+ * @author <<<Your name>>>.
+ */
+public class ClockComponent extends JComponent {
+
+	private ArrayList<Clock> clocks;
+
+	/** 
+	 * Constructor to initialize the ArrayList of clocks.	 
+	 */
+	public ClockComponent() {
+		//TODO: Implement
+	}
+
+	/**
+	 * Add a clock, using the given parameters to construct the clock to add.
+	 * 
+	 * @param centerX
+	 * @param centerY
+	 * @param radius
+	 * @param currentHour
+	 */
+	public void addClock(int centerX, int centerY, int radius, int currentHour, int currentMinute) {
+		//TODO: Implement
+
+	}
+
+	/**
+	 * Advances time for all clocks
+	 */
+	public void tickTock() {
+		//TODO: Implement by calling the tick() method for each of the clocks
+	}
+
+	@Override
+	protected void paintComponent(Graphics g) {
+		super.paintComponent(g);
+
+		Graphics2D g2 = (Graphics2D) g;
+
+		//TODO: Draw all the clocks
+	}
+
+}
